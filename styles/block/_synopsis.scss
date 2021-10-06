@@ -1,0 +1,49 @@
+.container-synopsis{
+    margin: 10px;
+    grid-area: synopsis;
+    border: 5px rgb(56, 56, 56) solid;
+    background:rgb(56, 56, 56);
+    border-radius: 20px;
+    border: 8px rgb(204, 204, 204) solid;
+    border-style: double;
+    color: rgb(201, 201, 201);
+  }
+  
+  .container-synopsis h2{
+    margin: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  
+  .container-synopsis h2:hover{
+    color:rgb(170, 130, 0);
+  }
+  
+  .synopsis{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items:center;
+    flex-direction: row;
+  }
+  
+  .synopsis-text{
+    text-align: justify;
+    line-height: 23px;
+    width: 600px;
+  }
+  
+  .synopsis-text-1{
+    padding-bottom: 30px;
+  }
+  
+  .synopsis img{
+    width: 40%;
+  }
+  
+  @media (max-width: 768px) {
+    .synopsis img{
+      width: 300px;
+    }
+    
+  }

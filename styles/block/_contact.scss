@@ -1,0 +1,38 @@
+.contact{
+    margin: 10px;
+    grid-area: contact;
+    border: 5px rgb(56, 56, 56) solid;
+    background:rgb(56, 56, 56);
+    border-radius: 20px;
+    border: 8px rgb(204, 204, 204) solid;
+    border-style: double;
+    color: rgb(201, 201, 201);
+  }
+  
+  .contact h2{
+    margin: 20px;
+    font-size: 30px;
+  }
+  
+  .contact h2 b{
+    color:rgb(170, 130, 0);
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    justify-content: space-around
+  }
+  
+  .contact form input{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .contact form textarea{
+    width: 50%;
+    height: 100px;
+    margin: auto;
+  }

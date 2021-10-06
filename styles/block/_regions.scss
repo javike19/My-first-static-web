@@ -1,0 +1,89 @@
+.regions{
+    margin: 10px;
+    grid-area: regions;
+    border: 5px rgb(56, 56, 56) solid;
+    background:rgb(56, 56, 56);
+    border-radius: 20px;
+    border: 8px rgb(204, 204, 204) solid;
+    border-style: double;
+    color: rgb(201, 201, 201);
+  }
+  
+  .regions h2{
+    margin: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  
+  .regions h2:hover{
+    color:rgb(170, 130, 0);
+  }
+  
+  .regions-picsandmap{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .regions-map h3{
+    margin: 40px;
+    font-size: 25px;
+    color:rgb(170, 130, 0);
+  }
+  
+  .regions-map img{
+    width: 700px;
+  }
+  @media (max-width: 768px) {
+    .regions-map img{
+      width: 300px;
+    }
+  }
+  .regions-pics{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .regions-pics h3{
+    font-size: 20px;
+    color:rgb(170, 130, 0);
+    margin: 50px
+  }
+  
+  .regions-pics img{
+    width: 500px;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .regions-pics img{
+      width: 200px;
+    }
+    .regions-pics h3{
+      margin: 20px;
+    }
+  }
+  
+  .regions-pics-lossantos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .regions-pics-sanfierro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .regions-pics-lasventuras{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+  }

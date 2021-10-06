@@ -1,0 +1,50 @@
+.header{
+    background-color: rgb(56, 56, 56);
+    grid-area: header;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: 8px rgb(204, 204, 204) solid;
+    border-style: double;
+  }
+  
+  .header-logo img{
+    width: 150px;
+    margin: 30px;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  li{
+    
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  a{
+    border-radius: 20px;
+    border: 5px rgb(204, 204, 204) solid;
+    border-style: double;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(170, 130, 0);
+    padding: 10px;
+  }
+  
+  a:hover{
+    color: rgb(204, 204, 204);
+    background-color: rgb(170, 130, 0);
+  }
